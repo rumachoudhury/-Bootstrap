@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+   color: rgb(189, 213, 236); 
+}
+
+.custom-navbar {
+    /* To override a CSS rule, we can use the `!important` declaration after a CSS property */
+    /* The ‘!(exclamation mark) important’ keyword is use when we need to override conflicting styles. */
+    background-color: dimgrey !important;
+    
+}
+
+.recommend-items {
+    background-color: white;
+    padding: 1rem;
+}

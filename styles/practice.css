@@ -1,0 +1,14 @@
+.custom-btn {
+   background-color: deeppink;
+   border: 1px solid black;
+}
+
+.custom-btn:hover {
+   background-color: darkorange;
+}
+
+ .navbar-custom {
+    /* overriding built-in styles */
+    background-color: rgb(35, 22, 22) !important;
+} 
+
